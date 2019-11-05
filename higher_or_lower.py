@@ -5,7 +5,6 @@ import random
 # November 5 2019
 
 
-print("naruto gang")
 def introduction():
     print("Hello user. My name is the dealer. Please enter your username:")
     username = input("> ")
@@ -60,6 +59,8 @@ Do you think its higher or lower than the first card?
             input("> ")
         second_card = random.randint(1, 21)
         print(f"Ok then! Your second card is: {second_card}")
+        new_mark = 30
+        new_mark2 = 30
         if second_card > first_card:
             print(f"The second card ({second_card}) is higher than the first card ({first_card})")
             if higher_lower == 1:
